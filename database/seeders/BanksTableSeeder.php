@@ -16,23 +16,39 @@ class BanksTableSeeder extends Seeder
 
         DB::table('banks')->insert([
             [
-                'name' => 'First National Bank',
-                'url' => 'https://www.fnb.example',
-                'address' => '123 Main St',
+                'name' => 'Newcastle Building Society',
+                'url' => 'https://newcastle.co.uk',
+                'address' => '',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
             [
-                'name' => 'Community Credit Union',
-                'url' => 'https://www.ccu.example',
-                'address' => '456 Elm St',
+                'name' => 'Skipton Building Society',
+                'url' => 'https://www.skipton.co.uk',
+                'address' => '',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
             [
-                'name' => 'International Bank',
-                'url' => 'https://www.ibank.example',
-                'address' => '1 Bank Ave',
+                'name' => 'Yorkshire Building Society',
+                'url' => 'https://www.ybs.co.uk',
+                'address' => '',
+                'created_at' => $now,
+                'updated_at' => $now,
+            ],
+            
+            
+            [
+                'name' => "Santander",
+                'url' => "https://www.santander.co.uk",
+                'address' => '',
+                'created_at' => $now,
+                'updated_at' => $now,
+            ],
+            [
+                'name' => "Leeds Building Society",
+                'url' => "https://www.leedsbuildingsociety.co.uk",
+                'address' => '',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],

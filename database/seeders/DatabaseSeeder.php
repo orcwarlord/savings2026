@@ -20,5 +20,8 @@ class DatabaseSeeder extends Seeder
 
         // Seed banks
         $this->call(BanksTableSeeder::class);
+        
+        // Link users to banks with sample institution passwords
+        $this->call(BankUserSeeder::class);
     }
 }
