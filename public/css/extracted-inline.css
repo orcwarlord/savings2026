@@ -1,0 +1,16 @@
+/* public copy for non-Vite fallback */
+.toggle-confirm { max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.18s ease, opacity 0.18s ease; }
+.toggle-confirm.expanded { max-height: 200px; opacity: 1; }
+.toggle-btn { background: transparent; border: none; padding: 0; }
+
+/* Site-wide link styles: consistent color and visited matching unvisited */
+.site-link, a.site-link { color: #fbd6d7; }
+.site-link:visited, a.site-link:visited { color: #fbd6d7; }
+.dark .site-link, .dark a.site-link { color: #c7999b; }
+.dark .site-link:visited, .dark a.site-link:visited { color: #c7999b; }
+
+/* Also make plain anchors without class consistent (scoped) */
+a { color: #fbd6d7; }
+a:visited { color: #fbd6d7; }
+.dark a { color: #c7999b; }
+.dark a:visited { color: #c7999b; }

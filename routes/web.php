@@ -18,6 +18,8 @@ Route::middleware('auth')->group(function () {
     
     // Users resource routes
     Route::resource('users', \App\Http\Controllers\UserController::class);
+    // Banks resource routes
+    Route::resource('banks', \App\Http\Controllers\BankController::class);
 });
 
 require __DIR__.'/auth.php';

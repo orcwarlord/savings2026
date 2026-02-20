@@ -71,7 +71,7 @@
 
                         <div class="flex justify-end">
                             <a href="{{ route('users.index') }}" class="mr-2 px-4 py-2 border rounded">Cancel</a>
-                            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Create</button>
+                            <button type="submit" class="px-4 py-2 bg-pfl-green text-white rounded">Create</button>
                         </div>
                     </div>
                 </form>

@@ -72,7 +72,7 @@
 
                         <div class="flex justify-end">
                             <a href="{{ route('users.show', $user) }}" class="mr-2 px-4 py-2 border rounded">Cancel</a>
-                            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Save</button>
+                            <button type="submit" class="px-4 py-2 bg-pfl-green text-white rounded">Save</button>
                         </div>
                     </div>
                 </form>
