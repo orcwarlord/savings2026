@@ -20,6 +20,9 @@ Route::middleware('auth')->group(function () {
     Route::resource('users', \App\Http\Controllers\UserController::class);
     // Banks resource routes
     Route::resource('banks', \App\Http\Controllers\BankController::class);
+    // Savings and saving types
+    Route::resource('savings', \App\Http\Controllers\SavingController::class);
+    Route::resource('saving-types', \App\Http\Controllers\SavingTypeController::class);
 });
 
 require __DIR__.'/auth.php';

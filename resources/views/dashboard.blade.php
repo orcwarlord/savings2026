@@ -81,6 +81,10 @@
                     <h4 class="font-semibold">Savings</h4>
                     <p class="text-sm text-gray-500 mb-4">High-level savings metrics (placeholders).</p>
 
+                    <div class="flex justify-end mb-4">
+                        <a href="{{ route('savings.index') }}" class="px-3 py-1 text-sm border rounded">View all savings</a>
+                    </div>
+
                     <div class="space-y-4">
                         <div class="p-4 bg-gray-50 rounded">
                             <div class="text-sm text-gray-600">Total savings (placeholder):</div>

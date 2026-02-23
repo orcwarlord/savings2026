@@ -23,5 +23,11 @@ class DatabaseSeeder extends Seeder
         
         // Link users to banks with sample institution passwords
         $this->call(BankUserSeeder::class);
+        
+        // Seed saving types
+        $this->call(\Database\Seeders\SavingTypesSeeder::class);
+
+        // Seed savings
+        $this->call(\Database\Seeders\SavingsSeeder::class);
     }
 }
